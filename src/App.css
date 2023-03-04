@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 50px;
+  border: 2px solid rgba(23, 6, 6, 0.534);
+  box-shadow: 10px 10px 10px;
+  border-radius: 10px;
+  height: 200px;
+  width: 1000px;
+}
+
+.button {
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  background-color: rgb(66, 66, 66);
+  color: white;
+}
+
+.user img, h1{
+    display: inline-block;
+    vertical-align: middle; 
+  }
+ 
+.repos h2{
+  margin-left: 32px;
+  font-size: 16px;
+}
+.list{
+  list-style-type: none;
+  margin-left: 50 px;
+
+}
+.reposmap ul{
+  border-collapse:collapse;
+  border: 1px solid rgb(74, 72, 72);
+}
+
+.reposmap li { 
+  border: 1px solid rgb(74, 72, 72);
+  padding: 10px;
+  list-style-type: none;
+}
+
+.buttonbtn {
+  width:1170px;
+  height: 40px;
+  text-align: center;
+  background-color: rgb(66, 66, 66);
+  color: white;
+  display: flex;
+  margin-left: 30px;
+  margin-bottom: 200px;
+  justify-content: center;
+}
+
+  
